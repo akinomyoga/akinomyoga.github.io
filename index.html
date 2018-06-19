@@ -171,6 +171,104 @@ E-mail (permanent): myoga.murase at gmail.com
 <li>(May. 15, 2018) Talk: <b>Azumi Sakai</b>, Koichi Murase, Tetsufumi Hirano, <a href="https://indico.cern.ch/event/656452/contributions/2869866/">Rapidity decorrelation from hydrodynamic fluctuations</a>, Quark Matter 2018, Venice, Italy</li>
 </ul>
 
+<h2>OSS Activities</h2>
+<h3>Softwares</h3>
+<p>See also <a href="https://github.com/akinomyoga?tab=repositories">Repositories</a> on GitHub.</p>
+
+<h4>Useful</h4>
+<ul>
+<li>Bash configuration <a href="https://github.com/akinomyoga/ble.sh"><code>ble.sh</code></a> ★★★
+  <ul>
+  <li>Syntax highlighting in Bash interactive sessions
+    (like <code>fish</code> and <code>zsh-syntax-highlighting</code>)
+  </li>
+  <li>Enhanced vi/vim editing mode</li>
+  </ul>
+</li>
+<li>Chrome Extension <a href="https://chrome.google.com/webstore/detail/akinomyogamsdn-english-bu/ghipioibpocjlkdmjblcjgpkgomlckkb"><code>akinomyoga.msdn-english-button</code></a>
+  <ul>
+  <li>Show links for Japanese MSDN pages to the corresponding English pages</li>
+  </ul>
+</li>
+<li>Chrome Extension <a href="https://chrome.google.com/webstore/detail/aghaddonaghtex4chrome/mgenijkkphdhffnmaaamcclfpipimmef"><code>agh.addon.aghtex4chrome</code></a>
+  <ul>
+  <li>Render TeX files in Chrome</li>
+  <li>Render mathematical formulae in Gmail</li>
+  </ul>
+</li>
+<li>JavaScript Library <a href="https://github.com/akinomyoga/agh"><code>agh</code></a>
+  <ul>
+  <li>TeX interpreter written in JavaScript</li>
+  <li>PostScript interpreter written in JavaScript</li>
+  <li>etc.</li>
+  </ul>
+</li>
+<li>PHP Wiki Engine <a href="https://github.com/akinomyoga/lwiki"><code>lwiki</code></a>
+  <ul>
+  <li>Simple &amp; easy to setup (but I haven't yet written README...)</li>
+  </ul>
+</li>
+</ul>
+
+<h4>Samples &amp; Demonstration</h4>
+<ul>
+<li>Cygwin Library <a href="https://github.com/akinomyoga/cyglocale_patcher"><code>cyglocale_patcher</code></a>
+  <ul>
+  <li>Fix a bug of locales in <code>cygwin1.dll</code> (v2.7.0)</li>
+  <li>Sample of hot patching (API hooking)</li>
+  </ul>
+</li>
+<li>AWK script <a href="https://github.com/akinomyoga/mwg_pp/tree/ev3v2-release"><code>mwg_pp/ev3v2.awk</code></a>
+  <ul>
+  <li>Interpreter of a language like JavaScript/ECMAScript written in GNU awk script</li>
+  <li>Hand-written LR parser</li>
+  </ul>
+</li>
+</ul>
+
+
+<h3>Bug reports &amp; fixes</h3>
+<p>See also the <a href="https://github.com/akinomyoga">GitHub profile</a>.
+  The following list is a summary of activities not showing up in the GitHub profile.
+</p>
+<ul>
+<li>(May. 5, 2018) Bugfix <b>Bash</b>
+  <a href="https://lists.gnu.org/archive/html/bug-bash/2018-05/msg00020.html">[PATCH] `bind -x' inside `bind -x' bindings causes execution of random s</a>
+</li>
+<li>(Apr. 9, 2018) Bugfix <b>Bash</b>
+  <a href="https://lists.gnu.org/archive/html/bug-bash/2018-04/msg00040.html">[PATCH] READLINE_POINT with multibyte locales</a>
+</li>
+<li>(Mar. 21, 2018) Bugfix <b>Bash</b>
+  <a href="https://lists.gnu.org/archive/html/bug-bash/2018-03/msg00165.html">[PATCH] fix a bug that bind -x '"\C-@": unix-command' does not work</a>
+</li>
+<li>(Mar. 19, 2018) Report <b>Bash</b>
+  <a href="https://lists.gnu.org/archive/html/bug-bash/2018-03/msg00155.html">[PATCH: bash-5.0.0(2)-alpha] fix a bug that "bind -r" sometimes causes a</a>
+</li>
+<li>(Aug. 9, 2017) Report <b>g++</b>, <b>clang++</b>, <b>msvc</b>
+  <a href="https://stackoverflow.com/questions/45602368/correct-behavior-of-built-in-operator-candidates-of-overload-resolution-in-the-o">c++ - Correct behavior of built-in operator candidates of overload resolution in the operator expression context - Stack Overflow</a>
+  [ Reports based on this:
+    <a href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=81789">gcc 81789</a>,
+    <a href="https://bugs.llvm.org/show_bug.cgi?id=34138">llvm 34138</a>,
+    <a href="https://developercommunity.visualstudio.com/content/problem/92207/bug-c-cwg-1687-is-performed-too-early-in-overload.html">visualstudio 92207</a> ]
+</li>
+<li>(Mar. 12, 2017) Bugfix <b>cygwin1.dll</b>
+  <a href="https://sourceware.org/ml/newlib/2017/msg00166.html">Koichi MURASE - [PATCH, newlib/libc/locale] Fix broken '_duplocale_r' which called '__lo</a>
+</li>
+<li>(Dec. 17, 2016) Report <b>g++</b>
+  <a href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=78840">78840 - [5/6/7 Regression] ICE with const variables in templates implicitly captured by nested lambda expressions</a>
+</li>
+<li>(Nov. 7, 2016) Bugfix <b>Bash</b>
+  <a href="https://lists.gnu.org/archive/html/bug-bash/2016-11/msg00050.html">In ((0? var: 0)), expressions stored in var are evaluated.</a>
+  [Official patch: <a href="https://ftp.gnu.org/gnu/bash/bash-4.4-patches/bash44-008">bash44-008</a>]
+</li>
+<li>(Nov. 6, 2016) Bugfix <b>Bash</b>
+  <a href="https://lists.gnu.org/archive/html/bug-bash/2016-11/msg00039.html">"builtin printf '\uFF8E'" generates broken surrogate pairs in Cygwin</a>
+</li>
+<li>(Apr. 25, 2015) Report <b>g++</b>
+  <a href="https://gcc.gnu.org/bugzilla/show_bug.cgi?id=65885">65885 - lambda expressions in templates fail to capture `const int' variables</a>
+</li>
+</ul>
+
 <hr style="height:1px;" />
 <div id="pagebottomholder">
   <div class="linkbar2">
